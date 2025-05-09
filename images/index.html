@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/badges/">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+ <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg masticky-top">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand text-success" href="#"> -->
+        <div class="logo"><img src="logo.svg" ></div>
+      </a>
+      <div class="menu">
+      <i style="font-size: 19px;" class="fa fa-bars"></i></div>
+
+  <!--  -->
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+        <div class="navbar-toggler-icon"></div>
+      </button> -->
+  
+      <div class="collapse navbar-collapse" id="navContent">
+        <!-- Search -->
+        <div class="mx-auto my-3 my-lg-0">
+          <div class="searchbar">
+            <select>
+              <option>All Categories</option>
+              <option>Fruits</option>
+              <option>Vegetables</option>
+              <option>Beverages</option>
+            </select>
+            <input type="text" placeholder="Search for more than 20,000 products" onfocus="this.placeholder=''"   onblur="this.placeholder='Search for more than 20,000 products'"/>
+            <!-- <input type="text" value="Search for more than 20,000 products" onfocus="this.value=''"/> -->
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+        
+        <!-- Nav links and icons -->
+        <ul class="navbar-nav ms-auto align-items-center ">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">PAGES</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">About</a></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+            </ul>
+          </li>
+          <li class="nav-icons d-flex">
+            <i style='font-size:20px' class='far'>&#xf2bd;</i>
+            <i class="far fa-bookmark"></i>
+            <i class="fas fa-trash-alt"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+<div class="header-banner"> 
+    <div id="header-img" >
+      <img width="100%"  src="banner-1.jpg" alt="Veggies">
+    </div>
+</div>
+    <div class="main">
+
+    <div class="header-text">
+      <h1>your <span style="color:#000;">Doorsteps</span></h1>
+      <p>Dignissim massa diam elementum.</p>
+      <div class="header-buttons">
+        <button class="btn-green">START SHOPPING</button>
+        <button class="btn-dark">JOIN NOW</button>
+      </div>
+      <div class="header-value">
+        <div><h3>14k+</h3><p>PRODUCT<br>VARIETIES</p></div>
+        <div><h3>50k+</h3><p>HAPPY<br>CUSTOMERS</p></div>
+        <div><h3>10+</h3><p>STORE<br>LOCATIONS</p></div>
+      </div>
+    </div>
+   
+  
+  <!-- Info Cards -->
+  <div class="section">
+    <div class="color-box green">
+      <i class="fas fa-sync-alt"></i>
+      <div>
+        <h4>Fresh from farm</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+      </div>
+    </div>
+    <div class="color-box dark">
+      <i class="fas fa-leaf"></i>
+      <div>
+        <h4>100% Organic</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+      </div>
+    </div>
+    <div class="color-box orange">
+      <i class="fas fa-truck"></i>
+      <div>
+        <h4>Free delivery</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <!-- Category Section -->
+<div class="section-header">
+  <h2>Category</h2>
+  <button class="view-all">View All</button>
+</div>
+
+<div class="category-list">
+  <div class="category">
+    <img src="category-thumb-1.jpg" alt="Fruits">
+    <p>Fruits & Veges</p>
+  </div>
+  <div class="category">
+    <img src="category-thumb-2.jpg" alt="Breads">
+    <p>Breads & Sweets</p>
+  </div>
+  <div class="category">
+    <img src="category-thumb-3.jpg" alt="Wine">
+    <p>Fruits & Veges</p>
+  </div>
+  <div class="category">
+    <img src="category-thumb-4.jpg" alt="Beverages">
+    <p>Beverages</p>
+  </div>
+  <div class="category">
+    <img src="category-thumb-5.jpg" alt="Meat">
+    <p>Meat Products</p>
+  </div>
+  <div class="category">
+    <img src="category-thumb-6.jpg" alt="Breads">
+    <p>Breads</p>
+  </div>
+  <div class="category">
+    <img src="category-thumb-7.jpg" alt="Eggs">
+    <p>Fruits & Veges</p>
+  </div>
+  <div class="category">
+    <img src="category-thumb-8.jpg" alt="Meat">
+    <p>Breads & Sweets</p>
+  </div>
+</div>
+
+<!-- Best Selling Section -->
+<div class="section-header">
+  <h2>Best selling products</h2>
+  <button class="view-all">View All</button>
+</div>
+
+<div class="products">
+  <div class="product-card">
+    <img src="product-thumb-1.png" alt="Bread">
+    <p>Whole Wheat Sandwich Bread</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-2.png" alt="Oatmeal">
+    <p>Whole Grain Oatmeal</p>
+    <div class="stars">★★★★☆ <p>(41)</p></div>
+    <p><div class="old-price">$54.00</div> <div class="price">$50.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-3.png" alt="Cheese">
+    <p>Cheese Block</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$14.00</div> <div class="price">$12.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-4.png" alt="Spinach">
+    <p>Organic Baby Spinach</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-5.png" alt="Spinach 2">
+    <p>Organic Spinach Leaves (Fresh Produce)</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+</div>
+<div class="products">
+  <div class="product-card">
+    <img src="product-thumb-6.png" alt="Bread">
+    <p>Fresh Salmon</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-7.png" alt="Oatmeal">
+    <p>Imported Italian Spaghetti Pasta</p>
+    <div class="stars">★★★★☆ (222)</div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-8.png" alt="Cheese">
+    <p>Granny Smith Apples</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-9.png" alt="Spinach">
+    <p>Organic 2% Reduced Fat Milk</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-10.png" alt="Spinach 2">
+    <p>Greek Style Plain Yogurt</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+</div><br><br>
+<div class="mid-banner-container">
+  <!-- Left Promo -->
+  <div class="left-banner">
+    <img src="banner-ad-1.jpg" alt="Items on SALE">
+    <div class="banner-content">
+      <h2>Items on SALE</h2>
+      <p>Discounts up to 30%</p>
+      <button class="shop-btn">Shop Now</button>
+    </div>
+  </div>
+
+  <!-- Right Stack -->
+  <div class="right-banner">
+    <div class="banner-block">
+      <img src="banner-ad-2.jpg" alt="Combo Offers">
+      <div class="banner-content">
+        <h3>Combo offers</h3>
+        <p>Discounts up to 50%</p>
+        <button class="shop-btn">Shop Now</button>
+      </div>
+    </div><br>
+
+    <div class="banner-block">
+      <img src="banner-ad-3.jpg" alt="Discount Coupons">
+      <div class="banner-content">
+        <h3>Discount Coupons</h3>
+        <p>Discounts up to 40%</p>
+        <button class="shop-btn">Shop Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section-header">
+  <h2>Featured products</h2>
+  <button class="view-all1">View All</button>
+</div>
+<div class="products">
+  <div class="product-card">
+    <img src="product-thumb-6.png" alt="Bread">
+    <p>Greek Style Plain Yogurt</Style></p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-7.png" alt="Oatmeal">
+    <p>Pure Squeezed No Pulp Orange Juice</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-8.png" alt="Cheese">
+    <p>Fresh Oranges</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-9.png" alt="Spinach">
+    <p>Gourmet Dark Chocolate Bars</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-10.png" alt="Spinach 2">
+    <p>Fresh Green Celary</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+</div><br><br> 
+  <div class="log">
+    <img src="banner-newsletter.jpg" alt="">
+   <h2>Get 25% Discount<br>on your first purchase</h2>
+    <p>Just Sign Up & Register it now to become member.</p>
+    <form class="log-sign">
+      <input type="text"  placeholder="Name" required=""  onfocus="this.placeholder=''"   onblur="this.placeholder='Name'">
+      <input type="email"  placeholder="Email Address" required="" onfocus="this.placeholder=''"   onblur="this.placeholder='Email Address'">
+      <button class="submit">Submit</button>
+    </form>
+    </div><br><br>
+  
+<div class="section-header">
+  <h2>Most populor products</h2>
+  <button class="view-all">View All</button>
+</div>
+<div class="products">
+  <div class="product-card">
+    <img src="product-thumb-15.png" alt="Bread">
+    <p>Sandwich Bread</Style></p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-16.png" alt="Oatmeal">
+    <p>Honeycrisp Apples</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-17.png" alt="Cheese">
+    <p>Whole Wheat Sandwich Bread</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-18.png" alt="Spinach">
+    <p>Honeycrisp Apples</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-19.png" alt="Spinach 2">
+    <p>Sunstar Fresh Mieon Juice</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+</div>
+
+<div class="section-header">
+  <h2>Just arrived</h2>
+  <button class="view-all1">View All</button>
+</div>
+<div class="products">
+  <div class="product-card">
+    <img src="product-thumb-20.png" alt="Bread">
+    <p>Sunstar Fresh Mieon Juice</Style></p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-1.png" alt="Oatmeal">
+    <p>Whole Wheat Sandwich Bread</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-21.png" alt="Cheese">
+    <p>Sunstar Fresh Mieon Juice</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-22.png" alt="Spinach">
+    <p>Gourmet Dark Chocolate</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+  <div class="product-card">
+    <img src="product-thumb-23.png" alt="Spinach 2">
+    <p>Sunstar Fresh Mieon Juice</p>
+    <div class="stars">★★★★☆ <p>(222)</p></div>
+    <p><div class="old-price">$24.00</div> <div class="price">$18.00</div></p>
+    <p class="discount">10% OFF</p>
+  </div>
+</div>
+<div class="section-header">
+  <h2>Our Recent Blog</h2>
+  <button class="view-all">View All</button>
+</div>
+
+<div class="card-line">
+<div class="card">
+  <img src="post-thumbnail-1.jpg" alt="Avatar" style="width:95%">
+  <div class="container">
+    <h3><b>Top 10 casual look ideas to dress up your kids</b></h3> 
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, sit eius debitis voluptatum, odio excepturi aut odit harum est in, corporis veritatis officiis laboriosam omnis tempora dolores! Doloremque, officia laborum!</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="post-thumbnail-2.jpg" alt="Avatar" style="width:95%">
+  <div class="container">
+    <h3><b>Latest trends of wearing street wears supremely</b></h3> 
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, sit eius debitis voluptatum, odio excepturi aut odit harum est in, corporis veritatis officiis laboriosam omnis tempora dolores! Doloremque, officia laborum!</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="post-thumbnail-3.jpg" alt="Avatar" style="width:95%">
+  <div class="container">
+    <h3><b>10 Different Types of comfortable clothes ideas for women</b></h3> 
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, sit eius debitis voluptatum, odio excepturi aut odit harum est in, corporis veritatis officiis laboriosam omnis tempora dolores! Doloremque, officia laborum!</p> 
+  </div>
+</div>
+</div><br>
+<div class="app">
+ <div class="app-img1"> <img src="banner-onlineapp.png" style="width: 100%; height: 250%; margin-bottom: -350px;"></div>
+ <div class="app-left">
+ <h2>Download Organic App</h2>
+ <p>Online Orders made easy, fast and reliable</p>
+ <div class="app-img2"><img src="img-app-store.png" alt="store">
+ <!-- <div class="app-img2"> -->
+  <img src="img-google-play.png" alt="playstore"></div></div>
+</div><br>
+
+  
+  <div class="section-header">
+    <h2>People are also looking for</h2>
+  </div>
+
+<div class="tag-container">
+  <p>Blue diamon almonds</p>
+  <p>Angie’s Boomchickapop Corn</p>
+  <p>Salty kettle Corn</p>
+  <p>Chobani Greek Yogurt</p>
+  <p>Sweet Vanilla Yogurt</p>
+  <p>Foster Farms Takeout Crispy wings</p>
+  <p>Warrior Blend Organic</p>
+  <p>Chao Cheese Creamy</p>
+  <p>Chicken meatballs</p>
+  <p>Blue diamon almonds</p>
+  <p>Angie’s Boomchickapop Corn</p>
+  <p>Salty kettle Corn</p>
+  <p>Chobani Greek Yogurt</p>
+  <p>Sweet Vanilla Yogurt</p>
+  <p>Foster Farms Takeout Crispy wings</p>
+  <p>Warrior Blend Organic</p>
+  <p>Chao Cheese Creamy</p>
+  <p>Chicken meatballs</p>
+</div><br><br>
+<div class="box-align">
+  <div class="box">
+    <i style='font-size:24px' class='fas'>&#xf49e;</i>
+    <h5>Free delivery</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+  </div>
+  <div class="box">
+    <i style='font-size:24px' class='fas'>&#xf505;</i>
+    <h5>100% secure payment</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+  </div>
+  <div class="box">
+    <i style="font-size:24px" class="fa">&#xf046;</i>
+    <h5>Quality guarantee</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+  </div>
+  <div class="box">
+    <i style='font-size:24px' class='fas'>&#xf4d3;</i>
+    <h5>guaranteed savings</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+  </div>
+  <div class="box">
+    <i style="font-size:24px" class="fa">&#xf06b;</i>
+    <h5>Daily offers</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+  </div>
+</div><br><br>
+<footer class="footer">
+  <div class="footer-left">
+    <div class="logo-box">
+      <img src="logo.svg" alt="logo">
+    </div>
+    <div class="media">
+      <a class="link1 facebook" >
+          <i style="font-size: 18px;"  class="fab fa-2x fa-facebook-f"></i>
+      </a>
+      <a class="link1 twitter">
+          <!-- <i class="fab fa-2x fa-twitter"></i> -->
+          <i style="font-size: 18px;" class="fa-brands fa-x-twitter"></i>
+          
+      </a>
+      <a class="link1 youtube">
+          <i style="font-size: 18px;" class="fab fa-2x fa-youtube"></i>
+      </a>
+      <a class="link1 instagram">
+          <i style="font-size: 18px;" class="fab fa-2x fa-instagram"></i>
+      </a>
+      <a class="link1 amazon">
+          <i style="font-size: 18px;" class="fab fa-2x fa-amazon"></i>
+      </a>
+  
+  </div>
+  </div>
+
+  <div class="footer-col">
+    <h4>Organic</h4>
+    <p>About us</p>
+    <p>Conditions</p>
+    <p>Our Journals</p>
+    <p>Careers</p>
+    <p>Affiliate Programme</p>
+    <p>Ultras Press</p>
+  </div>
+
+  <div class="footer-col">
+    <h4>Quick Links</h4>
+    <p>Offers</p>
+    <p>Discount Coupons</p>
+    <p>Stores</p>
+    <p>Track Order</p>
+    <p>Shop</p>
+    <p>Info</p>
+  </div>
+
+  <div class="footer-col">
+    <h4>Customer Service</h4>
+    <p>FAQ</p>
+    <p>Contact</p>
+    <p>Privacy Policy</p>
+    <p>Returns & Refunds</p>
+    <p>Cookie Guidelines</p>
+    <p>Delivery Information</p>
+  </div>
+
+  <div class="footer-col">
+    <h4>Subscribe Us</h4>
+    <p>Subscribe to our newsletter to get updates about our grand offers.</p>
+    <div class="subscribe-form">
+      <input type="email" placeholder="Email Address" onfocus="this.placeholder=''"   onblur="this.placeholder='Email Address'">
+      <button>Subscribe</button>
+    </div>
+  </div>
+</footer>
+</div>
+</body> 
+</html>

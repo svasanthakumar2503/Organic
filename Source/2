@@ -1,0 +1,85 @@
+  .media {
+        /* background-color: green; */
+        height: 20vh;
+        display: flex;
+        margin-top: -50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link1 {
+        height: 30px;
+        width: 70px;
+        align-items: center;
+        justify-items: center;
+        /* background-color: #caf7e3; */
+        color: #171718;
+        border-radius: 5px;
+        /* border: 1px solid black; */
+        text-align: center;
+        margin: 7px;
+        line-height: 80px;
+    }
+
+    .media a i {
+        /* transition: all 0.3s ; */
+        /* align-items: center; */
+        margin-bottom: -150px;
+        border: 1px solid black;
+    }
+
+    .media a:hover i {
+        transform: scale(1.5);
+    }
+
+    .youtube:hover {
+        color: red;
+    }
+
+    .facebook:hover {
+        color: blue;
+    }
+
+    .instagram:hover {
+        color: #e11d74;
+    }
+
+    .twitter:hover {
+        color: #0c0c0c;
+    }
+
+    .github:hover {
+        color: black;
+    }
+
+    .linkedin:hover {
+        color: #04009a;
+    }
+
+
+    /* html */
+
+
+
+    <div class="media">
+    <a class="link1 linkedin" >
+        <i class="fab fa-2x fa-linkedin"></i>
+    </a>
+    <a class="link1 twitter">
+        <!-- <i class="fab fa-2x fa-twitter"></i> -->
+        <i style="font-size: 24px;" class="fa-brands fa-x-twitter"></i>
+        
+    </a>
+    <a class="link1 github">
+        <i class="fab fa-2x fa-github"></i>
+    </a>
+    <a class="link1 instagram">
+        <i class="fab fa-2x fa-instagram"></i>
+    </a>
+    <a class="link1 youtube">
+        <i class="fab fa-2x fa-youtube"></i>
+    </a>
+    <a class="link1 facebook">
+        <i class="fab fa-2x fa-facebook-f"></i>
+    </a>
+</div>
